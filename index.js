@@ -13,7 +13,7 @@ const winningTeamPerVenue = require("./ipl/winningTeamPerVenue");
 const MATCHES_FILE_PATH = "./csv_data/matches.csv";
 const DELIVERIES_FILE_PATH = "./csv_data/deliveries.csv";
 
-const JSON_OUTPUT_FILE_PATH = "./public/data.json";
+const JSON_OUTPUT_FILE_PATH = "./docs/data.json";
 
 function main() {
   csv()
